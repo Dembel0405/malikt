@@ -1,0 +1,294 @@
+@media all and (max-width: 1500px) {
+    .container {
+      width: 1280px;
+    }
+    .hero__rates {
+      width: 68%;
+    }
+    .order__container {
+      padding: 30px 30px 56px 30px;
+    }
+    .order__label_arrow:after {
+      right: -16px;
+    }
+    .map {
+      width: 788px;
+      height: 569px;
+    }
+    .advantages__container {
+      padding: 0 15px;
+    }
+  }
+  
+  @media all and (max-width: 1300px) {
+    .container {
+      width: 1190px;
+    }
+    .hero__rates {
+      justify-content: center;
+    }
+  }
+  
+  @media all and (max-width: 1200px) {
+    .container {
+      width: 960px;
+    }
+    .hero__rates {
+      width: 60%;
+    }
+    .hero__calc {
+      width: 40%;
+    }
+    .contacts__info {
+      width: 35%;
+    }
+    .map {
+      width: 600px;
+      height: 433px;
+    }
+  }
+  
+  @media all and (max-width: 992px) {
+    .mobile__nav {
+      display: flex;
+    }
+    .container {
+      width: 740px;
+    }
+    .hero__container {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .hero__rates {
+      width: 100%;
+    }
+    .hero__calc {
+      margin: 0 auto;
+      min-width: 425px;
+      margin-top: 37px;
+    }
+    .calc-tabs__item {
+      color: #000000;
+      opacity: 0.4;
+    }
+    .calc-tabs__item_active {
+      opacity: 1;
+    }
+    .contacts__wrapper {
+      flex-direction: column;
+    }
+    .contacts__info {
+      width: 100%;
+    }
+    .footer__license {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .map {
+      width: 100%;
+    }
+    .order__form {
+      flex-direction: column;
+    }
+    .order__label {
+      width: 100%;
+    }
+    .label__btn {
+      width: 45%;
+    }
+    .order__label_arrow:after {
+      display: none;
+    }
+    .order__submit {
+      width: 100%;
+      display: block;
+    }
+    .order__btn {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 16px 0 16px 20px;
+      text-align: left;
+    }
+    .header__nav {
+      display: none;
+    }
+    body {
+      background-size: auto;
+    }
+    .overlay {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  
+  @media all and (max-width: 768px) {
+    .container {
+      width: 540px;
+    }
+    .header__info {
+      display: none;
+    }
+  }
+  
+  @media all and (min-width: 768px) {
+    .header__info_mobile-table {
+      display: none;
+    }
+    .order__btn_mobile {
+      display: none;
+    }
+    .rates__middle_mobile {
+      display: none;
+    }
+    .hero__calc_mobile {
+      display: none;
+    }
+  }
+  
+  @media all and (max-width: 576px) {
+    .hero__calc {
+      display: none;
+    }
+    .bg-overlay {
+      background-color: #000;
+      opacity: 0.5;
+      position: fixed;
+      height: 100vh;
+      z-index: 999;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    .container {
+      width: 95%;
+    }
+    .advantages__text {
+      font-size: 36px;
+    }
+    .advantages__text span {
+      font-size: 20px;
+    }
+    .hero {
+      padding-top: 0.5rem;
+    }
+    .hero__calc_mobile {
+      position: fixed;
+      bottom: 0;
+      z-index: 999;
+      margin: 0 auto;
+      right: 0;
+      left: 0;
+    }
+    .hero__calc_mobile .calc__body {
+      border-radius: 20px;
+      padding: 30px 20px 60px 20px;
+    }
+    .hero__calc_mobile hr {
+      opacity: 0.2;
+      border: 2px solid #000000;
+      background-color: #000000;
+      width: 70px;
+      margin: 0 auto;
+    }
+    .header__info_mobile-table {
+      color: #fff;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      opacity: 0.8;
+      font-size: 18px;
+    }
+    .order__btn_mobile {
+      position: fixed;
+      padding: 27px 0;
+      bottom: 1.5rem;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      z-index: 998;
+      display: block;
+      background: #fff;
+      text-align: center;
+      border: none;
+      border-radius: 20px;
+      color: #000;
+      font-size: 22px;
+      font-weight: 600;
+      cursor: pointer;
+      width: 95%;
+      box-shadow: -16px 16px 32px rgba(67, 86, 100, 0.165947);
+    }
+    .hero__calc,
+    .rates__item {
+      min-width: 100%;
+    }
+    .rates__flag,
+    .rates__top {
+      display: none;
+    }
+    .rates__bot {
+      margin-top: 0;
+    }
+    .rates__bot .line {
+      display: none;
+    }
+    .hero__rates_nbrk .rates__middle {
+      display: none;
+    }
+    .rates__middle_mobile {
+      width: 30%;
+      margin-right: 2rem;
+    }
+    .gray_mobile {
+      text-align: center;
+      margin-top: 0.5rem;
+      display: block;
+    }
+    .rates__flag_mobile {
+      display: block;
+      margin: 0 auto;
+      width: 65%;
+    }
+    .tab__item {
+      font-size: 24px;
+    }
+    .logo {
+      width: 70%;
+    }
+    .buy {
+      font-size: 14px;
+    }
+    .show-more {
+      width: 100%;
+    }
+    .rates__item {
+      padding: 20px 27px 20px 30px;
+      margin-bottom: 20px;
+    }
+    .rates__price {
+      font-size: 28px;
+    }
+    .order__submit p {
+      font-size: 14px;
+    }
+    .footer {
+      display: none;
+    }
+    .contacts {
+      padding-bottom: 0;
+    }
+    .order__successful {
+      flex-direction: column;
+    }
+    .successful__text {
+      margin-left: 0;
+      margin-top: 27px;
+    }
+    .order__back {
+      padding: 16px 0px 15px 53px;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  
