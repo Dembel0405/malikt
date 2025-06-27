@@ -6,7 +6,10 @@ const path = require('path');
 
 async function fetchDataAndSave() {
     try {
-        const browser = await puppeteer.launch({ headless: true });
+        const browser = await puppeteer.launch({
+    executablePath: '/usr/bin/chromium-browser',
+    });
+
         const page = await browser.newPage();
 
         const url = 'https://ifin.kz/exchanger/malik-t/branch/33352';
