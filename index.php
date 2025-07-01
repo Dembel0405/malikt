@@ -216,7 +216,7 @@
             <div class="contacts__info">
                 <div class="contacts__item">
                     <p class="contacts__bold">Часы работы</p>
-                    <address class="contacts__social contacnts__graph">Ежедневно с 09:00 до 19:30</address>
+                    <address class="contacts__social contacnts__graph">Ежедневно с 09:00 до 20:00</address>
                 </div>
                 <div class="contacts__item">
                     <p class="contacts__bold">Адреса обменных пунктов</p>

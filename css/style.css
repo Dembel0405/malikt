@@ -1265,6 +1265,11 @@ select {
     font-size: 12px;
     left: 50px;
     top: 2px;
+
+}
+
+.header__top {
+  justify-content: center;
 }
     
     .calc__body {
@@ -1318,6 +1323,10 @@ select {
     left: 50px;
     top: 2px;
 }
+
+.header__top {
+  justify-content: center;
+}
 }
 
 @media (max-width: 480px) {
@@ -1359,6 +1368,10 @@ select {
       font-size: 11px;
       left: 51px;
       top: 3px;
+    }
+
+    .header__top {
+      justify-content: center;
     }
 }
 
