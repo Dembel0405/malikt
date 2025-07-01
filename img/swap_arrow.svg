@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="ios7_arrows" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+  <g>
+    <g>
+      <rect x="123.49" y="23.72" width="7.99" height="43.45" transform="translate(17.71 124.62) rotate(-55.42)"/>
+      <polygon points="107.46 76.23 111.99 82.81 147.76 58.15 147.68 54.47 143.23 51.57 107.46 76.23"/>
+    </g>
+    <rect x="75.23" y="-4.66" width="7.99" height="121.97" transform="translate(22.91 135.54) rotate(-90)"/>
+  </g>
+  <g>
+    <g>
+      <rect x="18.52" y="82.83" width="7.99" height="43.45" transform="translate(121.38 145.35) rotate(124.58)"/>
+      <polygon points="42.54 73.77 38.01 67.19 2.24 91.85 2.32 95.53 6.77 98.43 42.54 73.77"/>
+    </g>
+    <rect x="66.78" y="32.7" width="7.99" height="121.97" transform="translate(164.46 22.91) rotate(90)"/>
+  </g>
+</svg>

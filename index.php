@@ -8,7 +8,7 @@
 
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="css/global.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="js/main.js"></script>
 </head>
 
@@ -36,9 +36,6 @@
                 <div class="header__bot">
                     <div class="container header__bot-container">
                         <div class="header__tabs"><a href="#" class="tab__item tab__item_active">Курс валют</a> </div>
-                        <div class="header__info">Данные за:&nbsp;
-                            <span><?=$currency->update;?></span></div>
-                    </div>
                 </div>
                 <section class="hero">
                     <div class="container hero__container">
@@ -93,45 +90,77 @@
                             </div>
                         </div>
                         <div class="hero__calc" id="calc">
-    <div class="calc__wrapper">
-        <div class="calc__tabs"><button class="calc-tabs__item" disabled="">Валютный
-                калькулятор</button></div>
-        <form action="#" class="calc__body">
-            <div class="calc__item">
-                <p class="calc__text">Покупка</p>
-                <div>
-                    <span class="currency">₸</span>
-                    <input class="calc__input"  min="0" type="number" placeholder="У меня есть"> <select class="calc__select">
-                        <option value="KZT" selected>KZT </option>
-                        <option value="USD">USD </option>
-                        <option value="EUR">EUR </option>
-                        <option value="RUB">RUB </option>
-                    </select>
-                </div>
-            </div>
-            <div class="calc__item calc__item_buy">
-                <p class="calc__text">Продажа</p>
-                <div>
-                    <span class="currency_two">$</span>
-                    <input class="calc__input calc__input_two"  min="0" type="number" placeholder="Хочу приобрести"> <select class="calc__select_two">
-                        <option value="KZT">KZT </option>
-                        <option value="USD" selected>USD </option>
-                        <option value="EUR">EUR </option>
-                        <option value="RUB">RUB </option>
-                    </select>
-                </div>
-            </div>
-        </form>
-    </div>
-</div>
+        <h1 class="calc__title">Калькулятор обмена валюты</h1>
+        <div class="calc__wrapper">
+            <form action="#" class="calc__body">
+                <div class="calc__item">
+                    <div>
+                        <span class="currency">₸</span>
+                        <input class="calc__input" min="0" type="number" placeholder="У меня есть">
+                        <div class="custom-select" id="currency1-select" data-value="KZT">
+                            <div class="custom-select__trigger">
+                                <img src="../img/kzt.svg" alt="KZT" class="flag">
+                                <span>KZT</span>
+                                <img src="../img/ss_arrow.svg" alt="Arrow" class="arrow">
+                            </div>
+                            <div class="custom-select__options">
+                                <div class="custom-select__option" data-value="KZT">
+                                    <img src="../img/kzt.svg" alt="KZT"> KZT
+                                </div>
+                                <div class="custom-select__option" data-value="USD">
+                                    <img src="../img/usd.svg" alt="USD"> USD
+                                </div>
+                                <div class="custom-select__option" data-value="EUR">
+                                    <img src="../img/eur.svg" alt="EUR"> EUR
+                                </div>
+                                <div class="custom-select__option" data-value="RUB">
+                                    <img src="../img/rub.svg" alt="RUB"> RUB
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
+                <div class="calc__swap">
+                    <button class="calc__swap-btn" type="button">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M21.2594 8.35367L16.2594 13.3537L14.8451 11.9395L18.138 8.64656L2.0337 8.64655V6.64655L18.138 6.64656L14.8451 3.35366L16.2594 1.93945L21.2594 6.93945L21.9665 7.64656L21.2594 8.35367ZM2.7408 17.0608L7.7408 22.0608L9.15501 20.6465L5.81747 17.309H21.9665V15.309H5.90676L9.15501 12.0608L7.7408 10.6465L2.7408 15.6465L2.03369 16.3537L2.7408 17.0608Z" fill="currentColor"/>
+</svg>
+                    </button>
+                </div>
+                <div class="calc__item calc__item_buy">
+                    <div>
+                        <span class="currency_two">$</span>
+                        <input class="calc__input calc__input_two" min="0" type="number" placeholder="Хочу приобрести">
+                        <div class="custom-select" id="currency2-select" data-value="USD">
+                            <div class="custom-select__trigger">
+                                <img src="../img/usd.svg" alt="USD" class="flag">
+                                <span>USD</span>
+                                <img src="../img/ss_arrow.svg" alt="Arrow" class="arrow">
+                            </div>
+                            <div class="custom-select__options">
+                                <div class="custom-select__option" data-value="KZT">
+                                    <img src="../img/kzt.svg" alt="KZT"> KZT
+                                </div>
+                                <div class="custom-select__option" data-value="USD">
+                                    <img src="../img/usd.svg" alt="USD"> USD
+                                </div>
+                                <div class="custom-select__option" data-value="EUR">
+                                    <img src="../img/eur.svg" alt="EUR"> EUR
+                                </div>
+                                <div class="custom-select__option" data-value="RUB">
+                                    <img src="../img/rub.svg" alt="RUB"> RUB
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
                 </section>
                 <div class="header__bot">
                     <div class="container header__bot-container">
                         <div class="header__tabs"><a href="#" class="tab__item tab__item_active">Курс НБРК</a> </div>
-                        <div class="header__info">Данные за:&nbsp;
-                            <span><?=$currency->update;?></span></div>
-                    </div>
                 </div>
 
                 <section class="hero">
