@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Page-1">
+    <g id="Icon-Set">
+      <path id="location" class="cls-1" d="m7.5,8.15c-1.33,0-2.42,1.08-2.42,2.42s1.08,2.42,2.42,2.42,2.42-1.08,2.42-2.42-1.08-2.42-2.42-2.42h0Zm0,10.63,0-14.01c-3.2,0-5.8,2.6-5.8,5.8,0,2.42,4.83,9.67,5.8,9.67.95,0,5.8-7.27,5.8-9.67,0-3.2-2.6-5.8-5.8-5.8h0Z"/>
+    </g>
+  </g>
+</svg>

@@ -148,7 +148,7 @@
   
   @media all and (max-width: 576px) {
     .hero__calc {
-      display: none;
+      
     }
     .bg-overlay {
       background-color: #000;

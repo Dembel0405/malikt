@@ -93,35 +93,37 @@
                             </div>
                         </div>
                         <div class="hero__calc" id="calc">
-                            <div class="calc__wrapper">
-                                <div class="calc__tabs"><button class="calc-tabs__item" disabled="">Валютный
-                                        калькулятор</button></div>
-                                <form action="#" class="calc__body">
-                                    <div class="calc__item">
-                                        <p class="calc__text">Покупка</p>
-                                        <div><span class="currency">₸</span> <input class="calc__input" value="0"
-                                                min="0" type="number">
-                                            <select class="calc__select">
-                                                <option value="KZT" selected>KZT </option>
-                                                <option value="USD">USD </option>
-                                                <option value="EUR">EUR </option>
-                                                <option value="RUB">RUB </option>
-                                            </select></div>
-                                    </div>
-                                    <div class="calc__item calc__item_buy">
-                                        <p class="calc__text">Продажа</p>
-                                        <div><span class="currency_two">$</span> <input
-                                                class="calc__input calc__input_two" value="0" min="0" type="number">
-                                            <select class="calc__select_two">
-                                                <option value="KZT">KZT </option>
-                                                <option value="USD" selected>USD </option>
-                                                <option value="EUR">EUR </option>
-                                                <option value="RUB">RUB </option>
-                                            </select></div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+    <div class="calc__wrapper">
+        <div class="calc__tabs"><button class="calc-tabs__item" disabled="">Валютный
+                калькулятор</button></div>
+        <form action="#" class="calc__body">
+            <div class="calc__item">
+                <p class="calc__text">Покупка</p>
+                <div>
+                    <span class="currency">₸</span>
+                    <input class="calc__input"  min="0" type="number" placeholder="У меня есть"> <select class="calc__select">
+                        <option value="KZT" selected>KZT </option>
+                        <option value="USD">USD </option>
+                        <option value="EUR">EUR </option>
+                        <option value="RUB">RUB </option>
+                    </select>
+                </div>
+            </div>
+            <div class="calc__item calc__item_buy">
+                <p class="calc__text">Продажа</p>
+                <div>
+                    <span class="currency_two">$</span>
+                    <input class="calc__input calc__input_two"  min="0" type="number" placeholder="Хочу приобрести"> <select class="calc__select_two">
+                        <option value="KZT">KZT </option>
+                        <option value="USD" selected>USD </option>
+                        <option value="EUR">EUR </option>
+                        <option value="RUB">RUB </option>
+                    </select>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
                     </div>
                 </section>
                 <div class="header__bot">
@@ -177,70 +179,62 @@
                     </div>
                 </section>
                 <section class="contacts">
-                    <div class="container">
-                        <h4 class="contacts__heading">Контакты</h4>
-                        <div class="contacts__wrapper">
-                            <div class="contacts__info">
-                                <div class="contacts__item">
-                                    <p class="contacts__bold">Режим работы</p>
-                                    <address>Пн - Вс — с 09:00 до 19:30</address>
-                                </div>
-                                <div class="contacts__item">
-                                    <p class="contacts__bold">Адрес обменника</p>
-                                    <address>проспект Абилкайыр-хана, 64/1</address>
-                                    <address>проспект Абилкайыр-хана, 70</address>
-                                </div>
-                                <div class="contacts__item">
-                                    <p class="contacts__bold">Телефоны для связи</p>
-                                    <p>
-                                        <a href="tel:77014047950">
-                                            <address class="contacts__social contacts__social_tel">+7 (701) 404 79 50
-                                            </address>
-                                        </a>
-                                    </p>
-                                    <p>
-                                        <a href="https://wa.me/+77014047950" target="_blank"
-                                            class="contacts__social contacts__social_whatsapp">WhatsApp</a>
-                                    </p>
-                                    <!-- <p>
-                                        <a href="#" class="contacts__social contacts__social_notify sp_notify_prompt">Включить уведомления</a>
-                                    </p> -->
-                                </div>
-                            </div>
-                            <div class="contacts__map">
-                                <div class="map__wrapper">
-                                    <a class="dg-widget-link"
-                                        href="http://2gis.kz/aktobe/firm/70000001067756078/center/57.166594,50.287706/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть
-                                        на карте Актобе</a>
-                                    <div class="dg-widget-link"><a
-                                            href="http://2gis.kz/aktobe/center/57.166594,50.287706/zoom/16/routeTab/rsType/bus/to/57.166594,50.287706╎Малик Т, пункт обмена валют?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти
-                                            проезд до Малик Т, пункт обмена валют</a></div>
-                                    <script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js">
-                                    </script>
-                                    <script charset="utf-8">
-                                        new DGWidgetLoader({
-                                            "width": screen.width <= 960 ? "100%" : 740,
-                                            "height": 600,
-                                            "borderColor": "#a3a3a3",
-                                            "pos": {
-                                                "lat": 50.287706,
-                                                "lon": 57.166594,
-                                                "zoom": 16
-                                            },
-                                            "opt": {
-                                                "city": "aktobe"
-                                            },
-                                            "org": [{
-                                                "id": "70000001067756078"
-                                            }]
-                                        });
-                                    </script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты
-                                        использует JavaScript. Включите его в настройках вашего браузера.</noscript>
-                                </div>
-                            </div>
-                        </div>
+    <div class="container">
+        <h4 class="contacts__heading">Контактная информация</h4>
+        <div class="contacts__wrapper">
+            <div class="contacts__info">
+                <div class="contacts__item">
+                    <p class="contacts__bold">Часы работы</p>
+                    <address class="contacts__social contacnts__graph">Ежедневно с 09:00 до 19:30</address>
+                </div>
+                <div class="contacts__item">
+                    <p class="contacts__bold">Адреса обменных пунктов</p>
+                    <address class="contacts__social contacnts__adress">пр. Абилкайыр-хана, 64/1</address>
+                    <address class="contacts__social contacnts__adress">пр. Абилкайыр-хана, 70</address>
+                </div>
+                <div class="contacts__item">
+                    <p class="contacts__bold">Контактные телефоны</p>
+                    <p>
+                        <a href="tel:+77014047950">
+                            <address class="contacts__social contacts__social_tel">+7 (701) 404-79-50</address>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://wa.me/+77014047950" target="_blank" class="contacts__social contacts__social_whatsapp">WhatsApp</a>
+                    </p>
+                </div>
+            </div>
+            <div class="contacts__map">
+                <div class="map__wrapper">
+                    <a class="dg-widget-link" href="http://2gis.kz/aktobe/firm/70000001067756078/center/57.166594,50.287706/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Открыть на карте Актобе</a>
+                    <div class="dg-widget-link">
+                        <a href="http://2gis.kz/aktobe/center/57.166594,50.287706/zoom/16/routeTab/rsType/bus/to/57.166594,50.287706╎Малик Т, пункт обмена валют?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Проложить маршрут до пункта обмена валют Малик Т</a>
                     </div>
-                </section>
+                    <script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script>
+                    <script charset="utf-8">
+                        new DGWidgetLoader({
+                            "width": screen.width <= 960 ? "100%" : 740,
+                            "height": 600,
+                            "borderColor": "#a3a3a3",
+                            "pos": {
+                                "lat": 50.287706,
+                                "lon": 57.166594,
+                                "zoom": 16
+                            },
+                            "opt": {
+                                "city": "aktobe"
+                            },
+                            "org": [{
+                                "id": "70000001067756078"
+                            }]
+                        });
+                    </script>
+                    <noscript style="color:#c00;font-size:16px;font-weight:bold;">Для работы виджета карты необходимо включить JavaScript в настройках браузера.</noscript>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
             </main>
         </main>
     </div>
