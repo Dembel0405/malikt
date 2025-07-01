@@ -96,7 +96,8 @@
                 <div class="calc__item">
                     <div>
                         <span class="currency">₸</span>
-                        <input class="calc__input" min="0" type="number" placeholder="У меня есть">
+                        <input class="calc__input" min="0" type="number" id="myInput">
+                        <span class="form-label dark:text-white" for="myInput">У меня есть</span>
                         <div class="custom-select" id="currency1-select" data-value="KZT">
                             <div class="custom-select__trigger">
                                 <img src="../img/kzt.svg" alt="KZT" class="flag">
@@ -128,32 +129,33 @@
                     </button>
                 </div>
                 <div class="calc__item calc__item_buy">
-                    <div>
-                        <span class="currency_two">$</span>
-                        <input class="calc__input calc__input_two" min="0" type="number" placeholder="Хочу приобрести">
-                        <div class="custom-select" id="currency2-select" data-value="USD">
-                            <div class="custom-select__trigger">
-                                <img src="../img/usd.svg" alt="USD" class="flag">
-                                <span>USD</span>
-                                <img src="../img/ss_arrow.svg" alt="Arrow" class="arrow">
-                            </div>
-                            <div class="custom-select__options">
-                                <div class="custom-select__option" data-value="KZT">
-                                    <img src="../img/kzt.svg" alt="KZT"> KZT
-                                </div>
-                                <div class="custom-select__option" data-value="USD">
-                                    <img src="../img/usd.svg" alt="USD"> USD
-                                </div>
-                                <div class="custom-select__option" data-value="EUR">
-                                    <img src="../img/eur.svg" alt="EUR"> EUR
-                                </div>
-                                <div class="custom-select__option" data-value="RUB">
-                                    <img src="../img/rub.svg" alt="RUB"> RUB
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <div>
+        <span class="currency_two">$</span>
+        <input class="calc__input calc__input_two" min="0" type="number" id="myInput">
+        <span class="form-label dark:text-white" for="myInput">Хочу приобрести</span>
+        <div class="custom-select" id="currency2-select" data-value="USD">
+            <div class="custom-select__trigger">
+                <img src="../img/usd.svg" alt="USD" class="flag">
+                <span>USD</span>
+                <img src="../img/ss_arrow.svg" alt="Arrow" class="arrow">
+            </div>
+            <div class="custom-select__options">
+                <div class="custom-select__option" data-value="KZT">
+                    <img src="../img/kzt.svg" alt="KZT"> KZT
                 </div>
+                <div class="custom-select__option" data-value="USD">
+                    <img src="../img/usd.svg" alt="USD"> USD
+                </div>
+                <div class="custom-select__option" data-value="EUR">
+                    <img src="../img/eur.svg" alt="EUR"> EUR
+                </div>
+                <div class="custom-select__option" data-value="RUB">
+                    <img src="../img/rub.svg" alt="RUB"> RUB
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
             </form>
         </div>
     </div>
