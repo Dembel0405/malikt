@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1" name="viewport">
 
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="./img/logo.ico">
     <link rel="stylesheet" href="css/global.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="js/main.js"></script>
@@ -21,7 +21,7 @@
             <header class="header">
                 <div class="container">
                     <div class="header__top"><a href="/" class="logo"><img src="./img/logo.svg" alt="Малик Т"
-                                width="100%" height="50"></a>
+                                width="100%" ></a>
                         <nav class="header__nav">
                             <!-- <div class="nav__item"> -->
                                 <a href="https://wa.me/+77014047950" target="_blank" class="whatsapp">WhatsApp</a>
