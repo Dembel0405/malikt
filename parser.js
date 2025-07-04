@@ -6,11 +6,16 @@ const path = require('path');
 
 async function fetchDataAndSave() {
     try {
-       const browser = await puppeteer.launch({
-    executablePath: '/usr/bin/chromium-browser',
+      const browser = await puppeteer.launch({
     headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
+    args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--ignore-certificate-errors'
+    ]
 });
+
+
 
 
         const page = await browser.newPage();
